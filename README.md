@@ -19,7 +19,7 @@ Vemos los resultados para cada K1-espacio.
  
 En este primer estudio resalta el desempeño de U-MAP, que se queda lejos de conseguir los resultados de sus competidores. Por otro lado, entre el AutoEncoder y PCA tenemos resultados similares. Para K2 más pequeños el autoencoder mejora a PCA. Sin embargo, para un K2 mayor (por ejemplo de 64 y 128) es PCA quien consigue mejores resultados. Esto va a ayudar a concluir que cuando se requiere una reducción de dimensionalidad a un número muy pequeño de características es mejor opción el autoencoder. 
  
-#### Dado un porcentaje X, ¿qué valor de K2’ se necesita para que el K2’-vecindario del espacio reducido mantenga un X% del K2-vecindario original?
+### Dado un porcentaje X, ¿qué valor de K2’ se necesita para que el K2’-vecindario del espacio reducido mantenga un X% del K2-vecindario original?
  
 Para este apartado se va a fijar el valor de K2 (número de vecinos en el espacio original) y nos vamos a mover con K2’ (número de vecinos en el espacio reducido). 
 En este caso se van a mostrar los valores para los K1-espacio (espacio reducido de dimensión K1) con K1=16 y K1=128.
@@ -50,8 +50,8 @@ Se han escogido las 6 clases más representativas de los 20000 documentos escogi
  
 
 
-##### RANDOM FOREST
-###### N-SPACE (ORIGINAL=0.6815) 
+#### RANDOM FOREST
+##### N-SPACE (ORIGINAL=0.6815) 
 
 |&nbsp;|  2| 4| 8 | 16 | 32| 
 |--|:-------------------:|---|---|---|---|
@@ -59,8 +59,8 @@ Se han escogido las 6 clases más representativas de los 20000 documentos escogi
 |AUTOENCODER| 0.5354 | 0.6219 | 0.6655 | 0.6738 | 0.6758 |
 
 
-##### REGRESIÓN LOGÍSTICA
-###### N-SPACE (ORIGINAL = 0.6961)
+#### REGRESIÓN LOGÍSTICA
+##### N-SPACE (ORIGINAL = 0.6961)
 
 |&nbsp;|  2| 4| 8 | 16 | 32| 
 |--|:-------------------:|---|---|---|---|
