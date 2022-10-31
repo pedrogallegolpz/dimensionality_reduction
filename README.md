@@ -65,9 +65,9 @@ Se han escogido las 6 clases más representativas de los 20000 documentos escogi
 
 ##### RANDOM FOREST
 
-|a| a| a| N-SPACE (ORIGINAL=0.6815) | a | a|
+|&nbsp;| &nbsp;| &nbsp;| N-SPACE (ORIGINAL=0.6815) | &nbsp; | &nbsp;|
 |---|:-------------------:|---|---|---|---|
-|a|  2| 4| 8 | 16 | 32| 
+|n|  2| 4| 8 | 16 | 32| 
 |--|:-------------------:|---|---|---|---|
 |PCA| 0.3899 | 0.5795 | 0.6196 | 0.6702 | 0.6794 |
 |AUTOENCODER| 0.5354 | 0.6219 | 0.6655 | 0.6738 | 0.6758 |
