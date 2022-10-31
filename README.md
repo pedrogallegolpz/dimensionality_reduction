@@ -14,7 +14,7 @@ Vemos los resultados para cada K1-espacio.
  
  
  - K1=16
-
+![](https://github.com/pedrogallegolpz/dimensionality_reduction/blob/main/img/ae11.png)
  - K1=32
 
  - K1=64
