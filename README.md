@@ -12,14 +12,9 @@ Como requisito para un buen desempeño de los modelos al reducir dimensionalidad
 Vemos los resultados para cada K1-espacio.
 Vemos los resultados para cada K1-espacio. 
  
- 
- - K1=16
-![](https://github.com/pedrogallegolpz/dimensionality_reduction/blob/main/img/ae11.png)
- - K1=32
+ ![](https://github.com/pedrogallegolpz/dimensionality_reduction/blob/main/img/ae11.png)
+ ![](https://github.com/pedrogallegolpz/dimensionality_reduction/blob/main/img/ae12.png)
 
- - K1=64
-
- - K1=128
 
  
 En este primer estudio resalta el desempeño de U-MAP, que se queda lejos de conseguir los resultados de sus competidores. Por otro lado, entre el AutoEncoder y PCA tenemos resultados similares. Para K2 más pequeños el autoencoder mejora a PCA. Sin embargo, para un K2 mayor (por ejemplo de 64 y 128) es PCA quien consigue mejores resultados. Esto va a ayudar a concluir que cuando se requiere una reducción de dimensionalidad a un número muy pequeño de características es mejor opción el autoencoder. 
@@ -29,22 +24,14 @@ En este primer estudio resalta el desempeño de U-MAP, que se queda lejos de con
 Para este apartado se va a fijar el valor de K2 (número de vecinos en el espacio original) y nos vamos a mover con K2’ (número de vecinos en el espacio reducido). 
 En este caso se van a mostrar los valores para los K1-espacio (espacio reducido de dimensión K1) con K1=16 y K1=128.
 
- - K1=16 y distancia coseno
-
-
- 
- 
- - K1=16 y MSE
- 
-
-
-
- 
- - K1=128 y distancia coseno
-
-
- 
- - K1=128 y MSE
+![](https://github.com/pedrogallegolpz/dimensionality_reduction/blob/main/img/ae21.png)
+![](https://github.com/pedrogallegolpz/dimensionality_reduction/blob/main/img/ae22.png)
+![](https://github.com/pedrogallegolpz/dimensionality_reduction/blob/main/img/ae23.png)
+![](https://github.com/pedrogallegolpz/dimensionality_reduction/blob/main/img/ae24.png)
+![](https://github.com/pedrogallegolpz/dimensionality_reduction/blob/main/img/ae25.png)
+![](https://github.com/pedrogallegolpz/dimensionality_reduction/blob/main/img/ae26.png)
+![](https://github.com/pedrogallegolpz/dimensionality_reduction/blob/main/img/ae27.png)
+![](https://github.com/pedrogallegolpz/dimensionality_reduction/blob/main/img/ae28.png)
 
  
 
